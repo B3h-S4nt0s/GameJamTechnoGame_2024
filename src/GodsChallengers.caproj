@@ -29,7 +29,7 @@
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
-    <first-layout>Mapa</first-layout>
+    <first-layout>Mapa_0</first-layout>
     <use-loader-layout>1</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
@@ -344,7 +344,9 @@
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Mapa.xml</layout>
+        <layout>Mapa_0.xml</layout>
+        <layout>Mapa_1.xml</layout>
+        <layout>Mapa_2.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Mapa Events.xml</event-sheet>
