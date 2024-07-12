@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Mapa Events</name>
+    <events>
+        <event-block sid="416571897143327">
+            <conditions>
+                <condition id="4" name="On finished" sid="243643872177016" type="Sprite">
+                    <param id="0" name="Animation">&quot;Idle&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="496645629036333" type="Sprite">
+                    <param id="0" name="Animation">&quot;Idle&quot;</param>
+                    <param id="1" name="From">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="696437225638166" title="Mov_Mechanics" />
+        <event-block sid="624516078182940">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="145975838749874" type="Keyboard">
+                    <param id="0" name="Key">65</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="529348963861608">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="114718631773193" type="Keyboard">
+                    <param id="0" name="Key">87</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="250483147997192">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="932248508883095" type="Keyboard">
+                    <param id="0" name="Key">83</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="152630880856493">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="667653406493216" type="Keyboard">
+                    <param id="0" name="Key">68</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="645827999150791">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="949649944014639" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="779060831168162">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="520135960175735" type="Keyboard">
+                    <param id="0" name="Key">38</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="700172338279571">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="408287107834868" type="Keyboard">
+                    <param id="0" name="Key">40</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="956221035724367">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="179110133408632" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>
