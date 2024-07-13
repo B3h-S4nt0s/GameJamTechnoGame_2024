@@ -16,6 +16,7 @@
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="gamepad" version="1">Gamepad</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
@@ -383,6 +384,9 @@
         <object-type name="Mouse" sid="376633011747017">
             <plugin id="Mouse" />
         </object-type>
+        <object-type name="Gamepad" sid="836331938708680">
+            <plugin id="gamepad" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -397,6 +401,11 @@
     <global-instances>
         <global-instance type="Keyboard" uid="2" />
         <global-instance type="Mouse" uid="5" />
+        <global-instance type="Gamepad" uid="8">
+            <properties>
+                <analog-deadzone>25</analog-deadzone>
+            </properties>
+        </global-instance>
     </global-instances>
     <sounds-folder />
     <music-folder />
