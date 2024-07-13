@@ -28,7 +28,30 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances />
+            <instances>
+                <instance type="Background_TelaInicio" uid="0">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Disabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>955.619812012</x>
+                        <y>815.817565918</y>
+                        <z>0</z>
+                        <width>1703</width>
+                        <height>940</height>
+                        <depth>0</depth>
+                        <hotspotX>0.497759044</hotspotX>
+                        <hotspotY>0.755475521</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
             <effects />
         </layer>
         <layer name="Objects" sid="927868451957371">
@@ -64,30 +87,7 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances>
-                <instance type="Background_TelaInicio" uid="0">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1911.977539063</x>
-                        <y>1630.354003906</y>
-                        <z>0</z>
-                        <width>3838</width>
-                        <height>2161</height>
-                        <depth>0</depth>
-                        <hotspotX>0.497759044</hotspotX>
-                        <hotspotY>0.755475521</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-            </instances>
+            <instances />
             <effects />
         </layer>
     </layers>
