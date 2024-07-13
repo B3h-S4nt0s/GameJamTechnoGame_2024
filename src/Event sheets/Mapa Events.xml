@@ -172,5 +172,15 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="556102315580761">
+            <conditions>
+                <condition id="0" name="On clicked" sid="959855366803237" type="Button" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="453898340039541" type="System">
+                    <param id="0" name="Layout">Mapa_0</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

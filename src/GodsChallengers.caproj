@@ -10,7 +10,9 @@
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
@@ -375,41 +377,11 @@
             <plugin id="TiledBg" />
             <texture original-source="C:\projetos\GameJamTechnoGame_2024\src\Assets\Tiny Swords (Update 010)\Terrain\Ground\Tilemap_Flat.png" />
         </object-type>
-        <object-type name="Sprite" sid="900948759824823">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="841553610617745" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\projetos\GameJamTechnoGame_2024\src\Assets\Tiny Swords (Update 010)\UI\Banners\Carved_3Slides.png">
-                        <collision-poly>
-                            <point x="0.03125" y="0.09375" />
-                            <point x="0.973958" y="0.078125" />
-                            <point x="0.979167" y="0.5" />
-                            <point x="0.958333" y="0.875" />
-                            <point x="0.5" y="0.9375" />
-                            <point x="0.03125" y="0.90625" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
+        <object-type name="Button" sid="617720819232881">
+            <plugin id="Button" />
         </object-type>
-        <object-type name="Sprite2" sid="283239311101979">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="664368192666941" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.496241" original-source="C:\projetos\GameJamTechnoGame_2024\src\Assets\Tiny Swords (Update 010)\UI\Banners\Banner_Vertical.png">
-                        <collision-poly>
-                            <point x="0.0327869" y="0.0676692" />
-                            <point x="0.5" y="0.0075188" />
-                            <point x="0.967213" y="0.0676692" />
-                            <point x="0.893443" y="0.496241" />
-                            <point x="0.97541" y="0.932331" />
-                            <point x="0.5" y="0.984962" />
-                            <point x="0.0245902" y="0.932331" />
-                            <point x="0.106557" y="0.496241" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
+        <object-type name="Mouse" sid="376633011747017">
+            <plugin id="Mouse" />
         </object-type>
     </object-folder>
     <families />
@@ -424,6 +396,7 @@
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="2" />
+        <global-instance type="Mouse" uid="5" />
     </global-instances>
     <sounds-folder />
     <music-folder />

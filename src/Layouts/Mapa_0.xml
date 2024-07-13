@@ -125,36 +125,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>118</x>
-                        <y>984</y>
+                        <x>80</x>
+                        <y>294</y>
                         <z>0</z>
                         <width>106.666671753</width>
                         <height>195</height>
                         <depth>0</depth>
                         <hotspotX>0.523809552</hotspotX>
                         <hotspotY>0.512820542</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="LifeBar" uid="5">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Disabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>670</x>
-                        <y>170</y>
-                        <z>0</z>
-                        <width>802</width>
-                        <height>172</height>
-                        <depth>0</depth>
-                        <hotspotX>0.546666682</hotspotX>
-                        <hotspotY>0.526315808</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
