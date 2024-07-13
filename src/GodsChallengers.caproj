@@ -10,7 +10,9 @@
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
@@ -401,11 +403,13 @@
     </layout-folder>
     <event-folder>
         <event-sheet>Mapa Events.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="2" />
-        <global-instance type="Mouse" uid="5" />
-        <global-instance type="Gamepad" uid="8">
+        <global-instance type="Mouse" uid="8" />
+        <global-instance type="Gamepad" uid="9">
             <properties>
                 <analog-deadzone>25</analog-deadzone>
             </properties>
