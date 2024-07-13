@@ -28,28 +28,7 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances>
-                <instance type="TiledBackground" uid="3">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>0</x>
-                        <y>0</y>
-                        <z>0</z>
-                        <width>3840</width>
-                        <height>2160</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-            </instances>
+            <instances />
             <effects />
         </layer>
         <layer name="Objects" sid="619811191802357">
@@ -86,7 +65,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Sprite" uid="4">
+                <instance type="Avatar" uid="4">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -95,7 +74,10 @@
                     </properties>
                     <instance-variables>
                         <Direction></Direction>
-                        <speed>400</speed>
+                        <speed>300</speed>
+                        <LP_i>100</LP_i>
+                        <LP_f>100</LP_f>
+                        <forca>12</forca>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="BoundToLayout">

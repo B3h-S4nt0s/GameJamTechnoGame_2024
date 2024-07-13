@@ -7,10 +7,10 @@
             <sub-events>
                 <event-block sid="731250696729485">
                     <conditions>
-                        <condition behavior="8Direction" id="0" name="Is moving" sid="508808270422717" type="Sprite" />
+                        <condition behavior="8Direction" id="0" name="Is moving" sid="508808270422717" type="Avatar" />
                     </conditions>
                     <actions>
-                        <action id="6" name="Set speed" sid="912207867935441" type="Sprite">
+                        <action id="6" name="Set speed" sid="912207867935441" type="Avatar">
                             <param id="0" name="Speed">16</param>
                         </action>
                     </actions>
@@ -20,7 +20,7 @@
                         <condition id="-22" name="Else" sid="634591046978184" type="System" />
                     </conditions>
                     <actions>
-                        <action id="-10" name="Set value" sid="748875569623244" type="Sprite">
+                        <action id="-10" name="Set value" sid="748875569623244" type="Avatar">
                             <param id="0" name="Instance variable">Direction</param>
                             <param id="1" name="Value">&quot;Idle&quot;</param>
                         </action>
@@ -37,7 +37,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-10" name="Set value" sid="212376281869729" type="Sprite">
+                        <action id="-10" name="Set value" sid="212376281869729" type="Avatar">
                             <param id="0" name="Instance variable">Direction</param>
                             <param id="1" name="Value">&quot;Right&quot;</param>
                         </action>
@@ -50,7 +50,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-10" name="Set value" sid="353760994274060" type="Sprite">
+                        <action id="-10" name="Set value" sid="353760994274060" type="Avatar">
                             <param id="0" name="Instance variable">Direction</param>
                             <param id="1" name="Value">&quot;Right&quot;</param>
                         </action>
@@ -63,7 +63,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-10" name="Set value" sid="376920193217496" type="Sprite">
+                        <action id="-10" name="Set value" sid="376920193217496" type="Avatar">
                             <param id="0" name="Instance variable">Direction</param>
                             <param id="1" name="Value">&quot;Left&quot;</param>
                         </action>
@@ -76,7 +76,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-10" name="Set value" sid="379750697060160" type="Sprite">
+                        <action id="-10" name="Set value" sid="379750697060160" type="Avatar">
                             <param id="0" name="Instance variable">Direction</param>
                             <param id="1" name="Value">&quot;Left&quot;</param>
                         </action>
@@ -89,10 +89,10 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="8Direction" id="7" name="Simulate control" sid="798020329463910" type="Sprite">
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="798020329463910" type="Avatar">
                             <param id="0" name="Control">1</param>
                         </action>
-                        <action id="-10" name="Set value" sid="601668708246486" type="Sprite">
+                        <action id="-10" name="Set value" sid="601668708246486" type="Avatar">
                             <param id="0" name="Instance variable">Direction</param>
                             <param id="1" name="Value">&quot;Right&quot;</param>
                         </action>
@@ -105,10 +105,10 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="8Direction" id="7" name="Simulate control" sid="507171229965673" type="Sprite">
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="507171229965673" type="Avatar">
                             <param id="0" name="Control">3</param>
                         </action>
-                        <action id="-10" name="Set value" sid="935823757527733" type="Sprite">
+                        <action id="-10" name="Set value" sid="935823757527733" type="Avatar">
                             <param id="0" name="Instance variable">Direction</param>
                             <param id="1" name="Value">&quot;Right&quot;</param>
                         </action>
@@ -121,10 +121,10 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="8Direction" id="7" name="Simulate control" sid="687382630560305" type="Sprite">
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="687382630560305" type="Avatar">
                             <param id="0" name="Control">2</param>
                         </action>
-                        <action id="-10" name="Set value" sid="174768977432898" type="Sprite">
+                        <action id="-10" name="Set value" sid="174768977432898" type="Avatar">
                             <param id="0" name="Instance variable">Direction</param>
                             <param id="1" name="Value">&quot;Left&quot;</param>
                         </action>
@@ -137,12 +137,25 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="8Direction" id="7" name="Simulate control" sid="761919928525782" type="Sprite">
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="761919928525782" type="Avatar">
                             <param id="0" name="Control">0</param>
                         </action>
-                        <action id="-10" name="Set value" sid="544984631582836" type="Sprite">
+                        <action id="-10" name="Set value" sid="544984631582836" type="Avatar">
                             <param id="0" name="Instance variable">Direction</param>
                             <param id="1" name="Value">&quot;Left&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="233736268608158">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="402903141524586" type="Keyboard">
+                            <param id="0" name="Key">70</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="956454627873509" type="Avatar">
+                            <param id="0" name="Animation">&quot;Atack&quot;</param>
+                            <param id="1" name="From">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -153,8 +166,8 @@
                 <condition id="-1" name="Every tick" sid="755235275751660" type="System" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="977895495020567" type="Sprite">
-                    <param id="0" name="Animation">Sprite.Direction</param>
+                <action id="4" name="Set animation" sid="977895495020567" type="Avatar">
+                    <param id="0" name="Animation">Avatar.Direction</param>
                     <param id="1" name="From">1</param>
                 </action>
             </actions>
