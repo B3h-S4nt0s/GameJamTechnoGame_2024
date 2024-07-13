@@ -5,25 +5,36 @@
     <events>
         <event-group description="" sid="806190160645465" title="Animations">
             <sub-events>
-                <event-block sid="416571897143327">
+                <event-block sid="731250696729485">
                     <conditions>
-                        <condition id="-2" name="On start of layout" sid="243643872177016" type="System" />
+                        <condition behavior="8Direction" id="0" name="Is moving" sid="508808270422717" type="Sprite" />
                     </conditions>
                     <actions>
-                        <action id="4" name="Set animation" sid="496645629036333" type="Sprite">
+                        <action id="6" name="Set speed" sid="912207867935441" type="Sprite">
+                            <param id="0" name="Speed">10</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="976896625206958">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="209544557070632" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="748875569623244" type="Sprite">
                             <param id="0" name="Animation">&quot;Idle&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="425875585306825">
+                <event-block sid="381373505894438">
                     <conditions>
-                        <condition id="4" name="On finished" sid="618182965279956" type="Sprite">
-                            <param id="0" name="Animation">&quot;Idle&quot;</param>
+                        <condition id="3" name="Compare frame" sid="773667323744450" type="Sprite">
+                            <param id="0" name="Comparison">1</param>
+                            <param id="1" name="Number">0</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="587627934940667" type="Sprite">
+                        <action id="5" name="Set frame" sid="272720388428036" type="Sprite">
                             <param id="0" name="Frame number">0</param>
                         </action>
                     </actions>
@@ -38,7 +49,12 @@
                             <param id="0" name="Key">39</param>
                         </condition>
                     </conditions>
-                    <actions />
+                    <actions>
+                        <action id="-10" name="Set value" sid="212376281869729" type="Sprite">
+                            <param id="0" name="Instance variable">Direction</param>
+                            <param id="1" name="Value">&quot;Right&quot;</param>
+                        </action>
+                    </actions>
                 </event-block>
                 <event-block sid="700172338279571">
                     <conditions>
@@ -62,7 +78,12 @@
                             <param id="0" name="Key">37</param>
                         </condition>
                     </conditions>
-                    <actions />
+                    <actions>
+                        <action id="-10" name="Set value" sid="379750697060160" type="Sprite">
+                            <param id="0" name="Instance variable">Direction</param>
+                            <param id="1" name="Value">&quot;Left&quot;</param>
+                        </action>
+                    </actions>
                 </event-block>
                 <event-block sid="152630880856493">
                     <conditions>
@@ -114,5 +135,16 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="692922414502036">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="755235275751660" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="977895495020567" type="Sprite">
+                    <param id="0" name="Animation">Sprite.Direction</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
