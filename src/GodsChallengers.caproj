@@ -10,12 +10,11 @@
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
-        <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
-        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
         <plugin author="Scirra" id="gamepad" version="1">Gamepad</plugin>
     </used-plugins>
     <used-behaviors>
@@ -376,7 +375,12 @@
         </object-type>
         <object-type name="TiledBackground" sid="379504030122239">
             <plugin id="TiledBg" />
-            <texture original-source="C:\projetos\GameJamTechnoGame_2024\src\Assets\Tiny Swords (Update 010)\Terrain\Ground\Tilemap_Flat.png" />
+            <texture original-source="C:\myapplications\AssetsGames\AdventureBegins_DemoVersion2.0.zip\AdventureBegins_DemoVersion\AdventureBegins_Demo.png" />
+        </object-type>
+        <object-type name="Tilemap" sid="623351246294050">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\myapplications\AssetsGames\AdventureBegins_DemoVersion2.0.zip\AdventureBegins_DemoVersion\AdventureBegins_Demo.png" />
+            <tiles />
         </object-type>
         <object-type name="Button" sid="617720819232881">
             <plugin id="Button" />
