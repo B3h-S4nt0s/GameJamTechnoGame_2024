@@ -15,17 +15,14 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="976896625206958">
+                <event-block sid="936510272088210">
                     <conditions>
-                        <condition behavior="8Direction" id="1" name="Compare speed" sid="209544557070632" type="Sprite">
-                            <param id="0" name="Comparison">3</param>
-                            <param id="1" name="Speed">0</param>
-                        </condition>
+                        <condition id="-22" name="Else" sid="634591046978184" type="System" />
                     </conditions>
                     <actions>
-                        <action id="4" name="Set animation" sid="748875569623244" type="Sprite">
-                            <param id="0" name="Animation">&quot;Idle&quot;</param>
-                            <param id="1" name="From">1</param>
+                        <action id="-10" name="Set value" sid="748875569623244" type="Sprite">
+                            <param id="0" name="Instance variable">Direction</param>
+                            <param id="1" name="Value">&quot;Idle&quot;</param>
                         </action>
                     </actions>
                 </event-block>
